@@ -1,0 +1,50 @@
+/* Basic styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #282c34;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    color: #FFD700;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-gap: 3px;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.wall { background: #555; }
+.path { background: #ccc; }
+.adventurer { background: #4CAF50; color: white; }
+.treasure { background: #FFD700; color: black; }
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    background: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
